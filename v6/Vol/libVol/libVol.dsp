@@ -93,10 +93,6 @@ SOURCE=..\..\..\..\Vol\src\VolVolume.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
-SOURCE=..\..\..\..\Vol\src\VolConfig.h
-# End Source File
-# Begin Source File
-
 SOURCE=..\..\..\..\Vol\src\VolVolume.hpp
 # End Source File
 # End Group
