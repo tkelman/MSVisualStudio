@@ -200,6 +200,9 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\CoinUtils\test\CoinMessageHandlerTest.cpp">
+			</File>
+			<File
 				RelativePath="..\..\..\..\CoinUtils\test\CoinModelTest.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
