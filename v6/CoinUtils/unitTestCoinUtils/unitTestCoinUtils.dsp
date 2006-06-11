@@ -97,6 +97,10 @@ SOURCE=..\..\..\..\CoinUtils\test\CoinIndexedVectorTest.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=..\..\..\..\CoinUtils\test\CoinMessageHandlerTest.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=..\..\..\..\CoinUtils\test\CoinModelTest.cpp
 # End Source File
 # Begin Source File
