@@ -10,4 +10,9 @@ v7/Vol         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Vol
 v7/Osi         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Osi
 v7/Cgl         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Cgl
 v7/Cbc         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Cbc
-
+v8/CoinUtils   https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/CoinUtils
+v8/Clp         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Clp
+v8/Vol         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Vol
+v8/Osi         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Osi
+v8/Cgl         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Cgl
+v8/Cbc         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Cbc
