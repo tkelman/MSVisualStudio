@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlopC++", "FlopC++\FlopC++.vcproj", "{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCbc", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\Cbc\libCbc\libCbc.vcproj", "{363BA154-FEC9-4E1E-BC23-93CEC58AB785}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCgl", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\Cgl\libCgl\libCgl.vcproj", "{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libClp", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\Clp\libClp\libClp.vcproj", "{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libCoinUtils", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\CoinUtils\libCoinUtils\libCoinUtils.vcproj", "{C4867F15-438D-4FF8-8388-62FBAAA9786C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libOsi", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\Osi\libOsi\libOsi.vcproj", "{7D98E2CB-876E-4F75-9F71-77D3FE87E149}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libOsiClp", "..\..\..\..\coin-Cbc\MSVisualStudio\v8\Osi\libOsiClp\libOsiClp.vcproj", "{02D45875-A8CF-41B9-990B-3699C0ECFE10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}.Debug|Win32.Build.0 = Debug|Win32
+		{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}.Release|Win32.ActiveCfg = Release|Win32
+		{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}.Release|Win32.Build.0 = Release|Win32
+		{363BA154-FEC9-4E1E-BC23-93CEC58AB785}.Debug|Win32.ActiveCfg = Debug|Win32
+		{363BA154-FEC9-4E1E-BC23-93CEC58AB785}.Debug|Win32.Build.0 = Debug|Win32
+		{363BA154-FEC9-4E1E-BC23-93CEC58AB785}.Release|Win32.ActiveCfg = Release|Win32
+		{363BA154-FEC9-4E1E-BC23-93CEC58AB785}.Release|Win32.Build.0 = Release|Win32
+		{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}.Debug|Win32.Build.0 = Debug|Win32
+		{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}.Release|Win32.ActiveCfg = Release|Win32
+		{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}.Release|Win32.Build.0 = Release|Win32
+		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Debug|Win32.Build.0 = Debug|Win32
+		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Release|Win32.ActiveCfg = Release|Win32
+		{4F8F7D1C-3A9E-444D-8EE9-77F33FA05994}.Release|Win32.Build.0 = Release|Win32
+		{C4867F15-438D-4FF8-8388-62FBAAA9786C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4867F15-438D-4FF8-8388-62FBAAA9786C}.Debug|Win32.Build.0 = Debug|Win32
+		{C4867F15-438D-4FF8-8388-62FBAAA9786C}.Release|Win32.ActiveCfg = Release|Win32
+		{C4867F15-438D-4FF8-8388-62FBAAA9786C}.Release|Win32.Build.0 = Release|Win32
+		{7D98E2CB-876E-4F75-9F71-77D3FE87E149}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D98E2CB-876E-4F75-9F71-77D3FE87E149}.Debug|Win32.Build.0 = Debug|Win32
+		{7D98E2CB-876E-4F75-9F71-77D3FE87E149}.Release|Win32.ActiveCfg = Release|Win32
+		{7D98E2CB-876E-4F75-9F71-77D3FE87E149}.Release|Win32.Build.0 = Release|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Debug|Win32.Build.0 = Debug|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|Win32.ActiveCfg = Release|Win32
+		{02D45875-A8CF-41B9-990B-3699C0ECFE10}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
