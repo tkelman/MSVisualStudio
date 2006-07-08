@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\FlopC++\include;..\..\..\CoinUtils\src;..\..\..\Osi\src"
+				AdditionalIncludeDirectories="E:\cygwin\usr\include\w32api;&quot;..\..\..\FlopC++\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -104,7 +104,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\COIN\Osi\OsiClp\include;..\..\COIN\Osi\OsiCbc\include;..\..\COIN\Cbc\include;..\..\COIN\Osi\include;..\..\flopc\include;..\..\COIN\coin\include"
+				AdditionalIncludeDirectories="E:\cygwin\usr\include\w32api;&quot;..\..\..\FlopC++\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
