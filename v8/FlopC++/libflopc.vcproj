@@ -150,51 +150,69 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\FlopC++\flopc.cpp"
+				RelativePath="..\..\..\FlopC++\src\flopc.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						ObjectFile="$(IntDir)\$(InputName)1.obj"
+						XMLDocumentationFileName="$(IntDir)\$(InputName)1.xdc"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						ObjectFile="$(IntDir)\$(InputName)1.obj"
+						XMLDocumentationFileName="$(IntDir)\$(InputName)1.xdc"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\FlopC++\src\MP_boolean.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_boolean.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_constant.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_constant.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_constraint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_constraint.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_data.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_data.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_domain.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_domain.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_expression.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_expression.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_index.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_index.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_model.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_model.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_set.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_set.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_utilities.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\MP_utilities.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\FlopC++\MP_variable.cpp"
+				RelativePath="..\..\..\FlopC++\src\MP_variable.cpp"
 				>
 			</File>
 		</Filter>
@@ -204,55 +222,51 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\..\FlopC++\include\flopc.hpp"
+				RelativePath="..\..\..\FlopC++\src\flopc.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_boolean.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_boolean.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_constant.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_constant.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_constraint.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_constraint.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_data.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_data.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_domain.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_domain.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_expression.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_expression.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_index.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_index.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_model.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_model.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_set.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_set.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_utilities.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_utilities.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\include\MP_variable.hpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\FlopC++\include\Timer.hpp"
+				RelativePath="..\..\..\FlopC++\src\MP_variable.hpp"
 				>
 			</File>
 		</Filter>
