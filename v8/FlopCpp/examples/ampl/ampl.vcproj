@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\..\Osi\src\OsiCbc;&quot;..\..\..\..\..\FlopCpp\src&quot;;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src"
+				AdditionalIncludeDirectories="..\..\..\..\..\BuildTools\headers;..\..\..\..\..\Clp\src;..\..\..\..\..\Osi\src\OsiClp;..\..\..\..\..\Osi\src\OsiCbc;&quot;..\..\..\..\..\FlopCpp\src&quot;;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
