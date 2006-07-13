@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="FlopC++"
+	Name="FlopCpp"
 	ProjectGUID="{B4CF7633-D8CA-4005-AD7B-CF7627801A7B}"
 	RootNamespace="FlopC"
 	Keyword="Win32Proj"

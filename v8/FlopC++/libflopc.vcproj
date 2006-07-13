@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;..\..\..\FlopC++\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
+				AdditionalIncludeDirectories="&quot;..\..\..\FlopCpp\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -104,7 +104,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="&quot;..\..\..\FlopC++\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
+				AdditionalIncludeDirectories="&quot;..\..\..\FlopCpp\include&quot;;..\..\..\Cbc\src\;..\..\..\Cgl\src\CglTwomir;..\..\..\Cgl\src\CglMixedIntegerRounding;..\..\..\Cgl\src\CglMixedIntegerRounding2;..\..\..\Cgl\src\CglFlowCover;..\..\..\Cgl\src\CglClique;..\..\..\Cgl\src\CglOddHole;..\..\..\Cgl\src\CglKnapsackCover;..\..\..\Cgl\src\CglGomory;..\..\..\Cgl\src\CglPreProcess;..\..\..\Cgl\src\CglProbing;..\..\..\Cgl\src;..\..\..\Clp\src;..\..\..\Osi\src\OsiClp;..\..\..\Osi\src;..\..\..\CoinUtils\src;..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
@@ -150,7 +150,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\FlopC++\src\flopc.cpp"
+				RelativePath="..\..\..\FlopCpp\src\flopc.cpp"
 				>
 				<FileConfiguration
 					Name="Debug|Win32"
@@ -172,47 +172,47 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_boolean.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_boolean.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_constant.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_constant.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_constraint.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_constraint.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_data.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_data.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_domain.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_domain.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_expression.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_expression.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_index.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_index.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_model.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_model.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_set.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_set.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_utilities.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_utilities.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_variable.cpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_variable.cpp"
 				>
 			</File>
 		</Filter>
@@ -222,51 +222,51 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\..\FlopC++\src\flopc.hpp"
+				RelativePath="..\..\..\FlopCpp\src\flopc.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_boolean.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_boolean.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_constant.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_constant.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_constraint.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_constraint.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_data.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_data.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_domain.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_domain.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_expression.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_expression.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_index.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_index.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_model.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_model.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_set.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_set.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_utilities.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_utilities.hpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\FlopC++\src\MP_variable.hpp"
+				RelativePath="..\..\..\FlopCpp\src\MP_variable.hpp"
 				>
 			</File>
 		</Filter>
