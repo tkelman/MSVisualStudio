@@ -243,6 +243,9 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cbc\src\CbcCbcParam.cpp">
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cbc\src\CbcCompareActual.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
@@ -484,26 +487,6 @@
 			</File>
 			<File
 				RelativePath="..\..\..\..\Cbc\src\CbcNode.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="0"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="2"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\..\..\Clp\src\CbcOrClpParam.cpp">
 				<FileConfiguration
 					Name="Debug|Win32">
 					<Tool
