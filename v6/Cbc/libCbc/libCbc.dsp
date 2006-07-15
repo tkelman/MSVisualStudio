@@ -109,6 +109,10 @@ SOURCE=..\..\..\..\Cbc\src\CbcBranchLotsize.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=..\..\..\..\Cbc\src\CbcCbcParam.cpp
+# End Source File
+# Begin Source File
+
 SOURCE=..\..\..\..\Cbc\src\CbcCompareActual.cpp
 # End Source File
 # Begin Source File
@@ -158,10 +162,6 @@ SOURCE=..\..\..\..\Cbc\src\CbcModel.cpp
 # Begin Source File
 
 SOURCE=..\..\..\..\Cbc\src\CbcNode.cpp
-# End Source File
-# Begin Source File
-
-SOURCE=..\..\..\..\Clp\src\CbcOrClpParam.cpp
 # End Source File
 # Begin Source File
 
