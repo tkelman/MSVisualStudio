@@ -22,10 +22,10 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\Smi\include,..\..\Osi\include,..\..\Coin\include"
+				AdditionalIncludeDirectories="..\..\..\..\Clp\src,..\..\..\..\Osi\src,..\..\..\..\CoinUtils\src,..\..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;OSLMSDLL"
 				BasicRuntimeChecks="3"
-				RuntimeLibrary="1"
+				RuntimeLibrary="5"
 				UsePrecompiledHeader="2"
 				PrecompiledHeaderFile=".\Debug/smiLib.pch"
 				AssemblerListingLocation=".\Debug/"
@@ -74,10 +74,10 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
-				AdditionalIncludeDirectories="..\..\Smi\include,..\..\Osi\include,..\..\Coin\include"
+				AdditionalIncludeDirectories="..\..\..\..\Clp\src,..\..\..\..\Osi\src,..\..\..\..\CoinUtils\src,..\..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;OSLMSDLL"
 				StringPooling="TRUE"
-				RuntimeLibrary="0"
+				RuntimeLibrary="4"
 				EnableFunctionLevelLinking="TRUE"
 				UsePrecompiledHeader="2"
 				PrecompiledHeaderFile=".\Release/smiLib.pch"
@@ -122,211 +122,42 @@
 			Name="Source Files"
 			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
 			<File
-				RelativePath="..\..\Coin\include\CoinFileIO.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiCoreCombineRule.cpp">
 			</File>
 			<File
-				RelativePath="..\SmiCoreCombineRule.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="0"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="2"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""/>
-				</FileConfiguration>
+				RelativePath="..\..\..\..\Smi\src\SmiScnData.cpp">
 			</File>
 			<File
-				RelativePath="..\SmiScnData.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="0"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="2"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""/>
-				</FileConfiguration>
+				RelativePath="..\..\..\..\Smi\src\SmiScnModel.cpp">
 			</File>
 			<File
-				RelativePath="..\SmiScnModel.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="0"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="2"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\SmiSmpsIO.cpp">
-				<FileConfiguration
-					Name="Debug|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="0"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""
-						BasicRuntimeChecks="3"/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Release|Win32">
-					<Tool
-						Name="VCCLCompilerTool"
-						Optimization="2"
-						AdditionalIncludeDirectories=""
-						PreprocessorDefinitions=""/>
-				</FileConfiguration>
+				RelativePath="..\..\..\..\Smi\src\SmiSmpsIO.cpp">
 			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl">
 			<File
-				RelativePath="..\include\SmiCoreCombineRule.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiCoreCombineRule.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiDiscreteDistribution.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiDiscreteDistribution.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiLinearData.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiLinearData.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiScenarioTree.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiScenarioTree.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiScnData.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiScnData.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiScnModel.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiScnModel.hpp">
 			</File>
 			<File
-				RelativePath="..\include\SmiSmpsIO.hpp">
+				RelativePath="..\..\..\..\Smi\src\SmiSmpsIO.hpp">
 			</File>
-			<Filter
-				Name="CoinHeader"
-				Filter="">
-				<File
-					RelativePath="..\..\Coin\include\CoinDistance.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinDistance.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinError.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinError.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinFinite.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinFinite.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinFloatEqual.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinFloatEqual.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinHelperFunctions.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinHelperFunctions.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinMessage.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinMessageHandler.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinMessageHandler.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinMpsIO.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinPackedMatrix.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinPackedMatrix.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinPackedVector.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinPackedVector.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinPackedVectorBase.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinPackedVectorBase.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinShallowPackedVector.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinShallowPackedVector.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\CoinSort.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Coin\include\CoinSort.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\OsiCollections.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\OsiSolverInterface.hpp">
-				</File>
-				<File
-					RelativePath="..\..\include\OsiSolverParameters.hpp">
-				</File>
-			</Filter>
-			<Filter
-				Name="OsiHeader"
-				Filter="">
-				<File
-					RelativePath="..\..\Osi\include\OsiCollections.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Osi\include\OsiSolverInterface.hpp">
-				</File>
-				<File
-					RelativePath="..\..\Osi\include\OsiSolverParameters.hpp">
-				</File>
-			</Filter>
 		</Filter>
 	</Files>
 	<Globals>
