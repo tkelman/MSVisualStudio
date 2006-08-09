@@ -4,3 +4,9 @@ v8/Osi         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Osi
 v8/Cgl         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Cgl
 v8/Cbc         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/Cbc
 v8/FlopCpp     https://projects.coin-or.org/svn/MSVisualStudio/trunk/v8/FlopCpp
+v7/CoinUtils   https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/CoinUtils
+v7/Clp         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Clp
+v7/Osi         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Osi
+v7/Cgl         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Cgl
+v7/Cbc         https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/Cbc
+v7/FlopCpp     https://projects.coin-or.org/svn/MSVisualStudio/trunk/v7/FlopCpp
