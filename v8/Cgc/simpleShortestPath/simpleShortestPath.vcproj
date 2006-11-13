@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\Cgc\src"
+				AdditionalIncludeDirectories="..\..\..\..\..\Cgc\src"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -177,7 +177,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\..\Cgc\examples\simpleShortestPath.cc"
+				RelativePath="..\..\..\..\examples\simpleShortestPath.cc"
 				>
 			</File>
 		</Filter>

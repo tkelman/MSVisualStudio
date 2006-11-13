@@ -40,7 +40,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\Cgc\src"
+				AdditionalIncludeDirectories="..\..\..\..\Cgc\src"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -177,107 +177,107 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\..\Cgc\test\BFTraversalTest.cc"
+				RelativePath="..\..\..\test\BFTraversalTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\ConnCompTest.cc"
+				RelativePath="..\..\..\test\ConnCompTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\DFTraversalTest.cc"
+				RelativePath="..\..\..\test\DFTraversalTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\DynNetTest.cc"
+				RelativePath="..\..\..\test\DIMACSFormatTest.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\LayerSPTest.cc"
+				RelativePath="..\..\..\test\DotOutputFormatTest.cpp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\MSTData.cc"
+				RelativePath="..\..\..\test\DynNetTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\MSTData.h"
+				RelativePath="..\..\..\test\LayerSPTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\MSTDataTest.cc"
+				RelativePath="..\..\..\test\MSTData.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\MSTTest.cc"
+				RelativePath="..\..\..\test\MSTDataTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\NodeIdTest.cc"
+				RelativePath="..\..\..\test\MSTTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\PathFindTest.cc"
+				RelativePath="..\..\..\test\NodeIdTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\PathTest.cc"
+				RelativePath="..\..\..\test\PathFindTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPDynTest.cc"
+				RelativePath="..\..\..\test\PathTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPStaticFBTest.cc"
+				RelativePath="..\..\..\test\SPDynTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPStaticTest.cc"
+				RelativePath="..\..\..\test\SPStaticFBTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPTest.cc"
+				RelativePath="..\..\..\test\SPStaticTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPTestData.cc"
+				RelativePath="..\..\..\test\SPTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPTestData.h"
+				RelativePath="..\..\..\test\SPTestData.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPTestDataTest.cc"
+				RelativePath="..\..\..\test\SPTestDataTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SSPSolverTest.cc"
+				RelativePath="..\..\..\test\SSPSolverTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\StaticFBNetTest.cc"
+				RelativePath="..\..\..\test\StaticFBNetTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\StaticNetTest.cc"
+				RelativePath="..\..\..\test\StaticNetTest.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\TestBed.cc"
+				RelativePath="..\..\..\test\TestBed.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\TestData.cc"
+				RelativePath="..\..\..\test\TestData.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\TestItem.cc"
+				RelativePath="..\..\..\test\TestItem.cc"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\unitTest.cc"
+				RelativePath="..\..\..\test\unitTest.cc"
 				>
 			</File>
 		</Filter>
@@ -287,103 +287,91 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\..\Cgc\src\ArcCostComp.h"
+				RelativePath="..\..\..\src\ArcCostComp.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\ArcHeadNodeCostComp.h"
+				RelativePath="..\..\..\src\ArcHeadNodeCostComp.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\ArcPath.h"
+				RelativePath="..\..\..\src\ArcPath.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\BFTraversal.h"
+				RelativePath="..\..\..\src\BFTraversal.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\Component.h"
+				RelativePath="..\..\..\src\Component.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\ConnComp.h"
+				RelativePath="..\..\..\src\ConnComp.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\DFTraversal.h"
+				RelativePath="..\..\..\src\DFTraversal.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\DijkSolver.h"
+				RelativePath="..\..\..\src\DijkSolver.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\DynNet.h"
+				RelativePath="..\..\..\src\DimacsNetFlowReader.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\LayerSPSolver.h"
+				RelativePath="..\..\..\src\DynNet.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\MSTSolver.h"
+				RelativePath="..\..\..\src\GraphDotFormat.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\NodeCostComp.h"
+				RelativePath="..\..\..\src\LayerSPSolver.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\NodeId.h"
+				RelativePath="..\..\..\src\MSTSolver.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\NodeIdMgr.h"
+				RelativePath="..\..\..\src\NodeCostComp.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\Path.h"
+				RelativePath="..\..\..\src\NodeId.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\PathFind.h"
+				RelativePath="..\..\..\src\NodeIdMgr.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\PLess.h"
+				RelativePath="..\..\..\src\Path.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\SPTest.h"
+				RelativePath="..\..\..\src\PathFind.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\SSPSolver.h"
+				RelativePath="..\..\..\src\PLess.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\StaticFBNet.h"
+				RelativePath="..\..\..\src\SSPSolver.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\src\StaticNet.h"
+				RelativePath="..\..\..\src\StaticFBNet.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\Cgc\test\TestBed.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\Cgc\test\TestData.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\Cgc\test\TestItem.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\Cgc\test\unitTest.h"
+				RelativePath="..\..\..\src\StaticNet.h"
 				>
 			</File>
 		</Filter>
