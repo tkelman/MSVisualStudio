@@ -273,6 +273,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglData.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglDuplicateRow\CglDuplicateRow.cpp"
 				>
 				<FileConfiguration
@@ -498,6 +502,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglParam.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglPreProcess\CglPreProcess.cpp"
 				>
 				<FileConfiguration
@@ -573,6 +581,14 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitData.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitParam.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglSimpleRounding\CglSimpleRounding.cpp"
 				>
 				<FileConfiguration
@@ -623,6 +639,10 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglTreeInfo.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglTwomir\CglTwomir.cpp"
 				>
 				<FileConfiguration
@@ -669,6 +689,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglData.hpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglDuplicateRow\CglDuplicateRow.hpp"
 				>
 			</File>
@@ -705,6 +729,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglParam.hpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglPreProcess\CglPreProcess.hpp"
 				>
 			</File>
@@ -717,11 +745,23 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitData.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitParam.hpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Cgl\src\CglSimpleRounding\CglSimpleRounding.hpp"
 				>
 			</File>
 			<File
 				RelativePath="..\..\..\..\Cgl\src\CglStored.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Cgl\src\CglTreeInfo.hpp"
 				>
 			</File>
 			<File
