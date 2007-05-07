@@ -116,7 +116,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\..\Cgc\src"
+				AdditionalIncludeDirectories="..\..\..\..\Cgc\src"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -230,6 +230,10 @@
 			</File>
 			<File
 				RelativePath="..\..\..\test\SPDynTest.cc"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\test\SPLabelCorrTest.cc"
 				>
 			</File>
 			<File
@@ -360,6 +364,10 @@
 			</File>
 			<File
 				RelativePath="..\..\..\src\PLess.h"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\src\SPLabelCorrectingSolver.h"
 				>
 			</File>
 			<File
