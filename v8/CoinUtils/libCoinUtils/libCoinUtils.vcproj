@@ -4,6 +4,7 @@
 	Version="8.00"
 	Name="libCoinUtils"
 	ProjectGUID="{C4867F15-438D-4FF8-8388-62FBAAA9786C}"
+	RootNamespace="libCoinUtils"
 	>
 	<Platforms>
 		<Platform
@@ -648,6 +649,14 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\CoinUtils\src\CoinParam.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\CoinUtils\src\CoinParamUtils.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\CoinUtils\src\CoinPostsolveMatrix.cpp"
 				>
 				<FileConfiguration
@@ -1280,6 +1289,10 @@
 			</File>
 			<File
 				RelativePath="..\..\..\..\CoinUtils\src\CoinPackedVectorBase.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\CoinUtils\src\CoinParam.hpp"
 				>
 			</File>
 			<File
