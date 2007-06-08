@@ -4,6 +4,7 @@
 	Version="8.00"
 	Name="libOsi"
 	ProjectGUID="{7D98E2CB-876E-4F75-9F71-77D3FE87E149}"
+	RootNamespace="libOsi"
 	>
 	<Platforms>
 		<Platform
@@ -198,6 +199,14 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Osi\src\OsiBranchingObject.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Osi\src\OsiChooseVariable.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Osi\src\OsiColCut.cpp"
 				>
 				<FileConfiguration
@@ -271,6 +280,10 @@
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Osi\src\OsiNames.cpp"
+				>
 			</File>
 			<File
 				RelativePath="..\..\..\..\Osi\src\OsiOpbdpSolve.cpp"
@@ -584,6 +597,14 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\..\Osi\src\OsiBranchingObject.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Osi\src\OsiChooseVariable.hpp"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\..\Osi\src\OsiColCut.hpp"
 				>
 			</File>
@@ -601,6 +622,10 @@
 			</File>
 			<File
 				RelativePath="..\..\..\..\Osi\src\OsiCuts.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\..\Osi\src\OsiOpbdpSolve.hpp"
 				>
 			</File>
 			<File
