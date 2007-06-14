@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="hs071_cpp"
-	ProjectGUID="{84B04F75-86DB-4056-8A02-6A2374E72A4E}"
-	RootNamespace="hs071_cpp"
+	Name="libCoinHSL"
+	ProjectGUID="{C2B9F577-7A9D-4C89-A669-9101DBE21436}"
+	RootNamespace="libCoinHSL"
 	Keyword="Win32Proj"
 	>
 	<Platforms>
@@ -19,7 +19,7 @@
 			Name="Debug|Win32"
 			OutputDirectory="Debug"
 			IntermediateDirectory="Debug"
-			ConfigurationType="1"
+			ConfigurationType="4"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			CharacterSet="2"
 			>
@@ -41,11 +41,13 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg"
-				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
+				AdditionalIncludeDirectories="&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;COIN_USE_F2C"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
+				DisableLanguageExtensions="true"
+				RuntimeTypeInfo="true"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="true"
@@ -61,21 +63,11 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
-				AdditionalDependencies="vcf2c.lib"
-				OutputFile="$(OutDir)/hs071_cpp.exe"
-				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
-				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/hs071_cpp.pdb"
-				SubSystem="1"
-				TargetMachine="1"
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)/Ipopt.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCManifestTool"
 			/>
 			<Tool
 				Name="VCXDCMakeTool"
@@ -87,12 +79,6 @@
 				Name="VCFxCopTool"
 			/>
 			<Tool
-				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
-			/>
-			<Tool
 				Name="VCPostBuildEventTool"
 			/>
 		</Configuration>
@@ -100,7 +86,7 @@
 			Name="Release|Win32"
 			OutputDirectory="Release"
 			IntermediateDirectory="Release"
-			ConfigurationType="1"
+			ConfigurationType="4"
 			InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops"
 			CharacterSet="2"
 			>
@@ -121,9 +107,11 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg"
-				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
+				AdditionalIncludeDirectories="&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;COIN_USE_F2C"
 				RuntimeLibrary="0"
+				DisableLanguageExtensions="true"
+				RuntimeTypeInfo="true"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="true"
@@ -139,22 +127,11 @@
 				Name="VCPreLinkEventTool"
 			/>
 			<Tool
-				Name="VCLinkerTool"
-				AdditionalDependencies="vcf2c.lib"
-				OutputFile="$(OutDir)/hs071_cpp.exe"
-				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
-				GenerateDebugInformation="true"
-				SubSystem="1"
-				OptimizeReferences="2"
-				EnableCOMDATFolding="2"
-				TargetMachine="1"
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)/Ipopt.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
-			/>
-			<Tool
-				Name="VCManifestTool"
 			/>
 			<Tool
 				Name="VCXDCMakeTool"
@@ -166,12 +143,6 @@
 				Name="VCFxCopTool"
 			/>
 			<Tool
-				Name="VCAppVerifierTool"
-			/>
-			<Tool
-				Name="VCWebDeploymentTool"
-			/>
-			<Tool
 				Name="VCPostBuildEventTool"
 			/>
 		</Configuration>
@@ -179,14 +150,26 @@
 	<References>
 	</References>
 	<Files>
-		<File
-			RelativePath="..\..\..\..\Ipopt\examples\hs071_cpp\hs071_main.cpp"
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-		</File>
-		<File
-			RelativePath="..\..\..\..\Ipopt\examples\hs071_cpp\hs071_nlp.cpp"
+			<File
+				RelativePath=".\ma27ad.c"
+				>
+			</File>
+			<File
+				RelativePath=".\mc19ad.c"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-		</File>
+		</Filter>
 	</Files>
 	<Globals>
 	</Globals>

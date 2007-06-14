@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="hs071_cpp"
-	ProjectGUID="{84B04F75-86DB-4056-8A02-6A2374E72A4E}"
-	RootNamespace="hs071_cpp"
+	Name="IpoptAmplSolver"
+	ProjectGUID="{1A1833E6-DBDB-4175-801A-A53699D0B70F}"
+	RootNamespace="IpoptAmplSolver"
 	Keyword="Win32Proj"
 	>
 	<Platforms>
@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg"
+				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrics"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -62,12 +62,12 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="vcf2c.lib"
-				OutputFile="$(OutDir)/hs071_cpp.exe"
+				AdditionalDependencies="vcf2c.lib amplsolv.lib"
+				OutputFile="$(OutDir)/ipopt.exe"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\ThirdParty\ASL\solvers&quot;"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/hs071_cpp.pdb"
+				ProgramDatabaseFile="$(OutDir)/ipopt.pdb"
 				SubSystem="1"
 				TargetMachine="1"
 			/>
@@ -121,7 +121,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg"
+				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\BuildTools\headers;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrices;..\..\..\..\ThirdParty\ASL\solvers"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="0"
@@ -140,10 +140,10 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="vcf2c.lib"
-				OutputFile="$(OutDir)/hs071_cpp.exe"
+				AdditionalDependencies="vcf2c.lib amplsolv.lib"
+				OutputFile="$(OutDir)/ipopt.exe"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;"
+				AdditionalLibraryDirectories="&quot;C:\Program Files\Intel\Fortran\compiler80\IA32\LIB&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\MSVisualStudio\v8\F2cLib\libf2c&quot;;&quot;C:\andreasw\COIN-svn\Ipopt\trunk\ThirdParty\ASL\solvers&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
@@ -180,11 +180,11 @@
 	</References>
 	<Files>
 		<File
-			RelativePath="..\..\..\..\Ipopt\examples\hs071_cpp\hs071_main.cpp"
+			RelativePath="..\..\..\..\Ipopt\src\Apps\AmplSolver\ampl_ipopt.cpp"
 			>
 		</File>
 		<File
-			RelativePath="..\..\..\..\Ipopt\examples\hs071_cpp\hs071_nlp.cpp"
+			RelativePath="..\..\..\..\Ipopt\src\Apps\AmplSolver\AmplTNLP.cpp"
 			>
 		</File>
 	</Files>

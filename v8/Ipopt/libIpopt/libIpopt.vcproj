@@ -4,6 +4,7 @@
 	Version="8.00"
 	Name="libIpopt"
 	ProjectGUID="{70C95D45-EB96-4C08-94D5-F1081D021629}"
+	RootNamespace="libIpopt"
 	Keyword="Win32Proj"
 	>
 	<Platforms>
@@ -40,8 +41,8 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\Algorithm\LinearSolvers;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrices;..\..\..\..\BuildTools\headers"
-				PreprocessorDefinitions="WIN32;_DEBUG;_LIB"
+				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\Algorithm\LinearSolvers;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrices;..\..\..\..\Ipopt\src\contrib\CGPenalty;..\..\..\..\BuildTools\headers"
+				PreprocessorDefinitions="WIN32;_DEBUG;_LIB;COIN_USE_F2C"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="1"
@@ -106,8 +107,8 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\Algorithm\LinearSolvers;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrices;..\..\..\..\BuildTools\headers"
-				PreprocessorDefinitions="WIN32;NDEBUG;_LIB"
+				AdditionalIncludeDirectories="..\..\..\..\Ipopt\src\Interfaces;..\..\..\..\Ipopt\src\Common;..\..\..\..\Ipopt\src\Algorithm;..\..\..\..\Ipopt\src\Algorithm\LinearSolvers;..\..\..\..\Ipopt\src\LinAlg;..\..\..\..\Ipopt\src\LinAlg\TMatrices;..\..\..\..\Ipopt\src\contrib\CGPenalty;..\..\..\..\BuildTools\headers"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;COIN_USE_F2C"
 				RuntimeLibrary="0"
 				DisableLanguageExtensions="true"
 				RuntimeTypeInfo="true"
@@ -179,6 +180,10 @@
 				</File>
 				<File
 					RelativePath="..\..\..\..\Ipopt\src\Algorithm\IpDefaultIterateInitializer.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\Algorithm\IpEquilibrationScaling.cpp"
 					>
 				</File>
 				<File
@@ -279,6 +284,10 @@
 				</File>
 				<File
 					RelativePath="..\..\..\..\Ipopt\src\Algorithm\IpPDPerturbationHandler.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\Algorithm\IpPDSearchDirCalc.cpp"
 					>
 				</File>
 				<File
@@ -519,6 +528,30 @@
 				</File>
 				<File
 					RelativePath="..\..\..\..\Ipopt\src\Interfaces\IpTNLPAdapter.cpp"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="CGPenalty"
+				>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGPenaltyCq.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGPenaltyData.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGPenaltyLSAcceptor.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGPenaltyRegOp.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGSearchDirCalc.cpp"
 					>
 				</File>
 			</Filter>
