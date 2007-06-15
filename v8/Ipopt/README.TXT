@@ -17,15 +17,15 @@ Here are the steps:
 
    and extract it in
 
-   BASDIR\F2cLib
+   BASDIR\MSVisualStudio\v8\Ipopt
 
    so that you will see the file
 
-   BASDIR\MSVisualStudio\v8\F2cLib\libf2c\makefile.vc
+   BASDIR\MSVisualStudio\v8\Ipopt\libf2c\makefile.vc
 
 2. Open a Visual Studio DOS prompt and go into the directory
 
-   cd BASDIR\MSVisualStudio\v8\F2cLib\libf2c\
+   cd BASDIR\MSVisualStudio\v8\Ipopt\libf2c\
 
    Here, type
 
