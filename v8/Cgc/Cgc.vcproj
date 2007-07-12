@@ -281,6 +281,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\..\test\TopoSortTest.cc"
+				>
+			</File>
+			<File
 				RelativePath="..\..\..\test\unitTest.cc"
 				>
 			</File>
@@ -380,6 +384,10 @@
 			</File>
 			<File
 				RelativePath="..\..\..\src\StaticNet.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TopoSort.h"
 				>
 			</File>
 		</Filter>
