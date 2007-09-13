@@ -199,14 +199,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Osi\src\OsiBranchingObject.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\Osi\src\OsiChooseVariable.cpp"
-				>
-			</File>
-			<File
 				RelativePath="..\..\..\..\Osi\src\OsiColCut.cpp"
 				>
 				<FileConfiguration
@@ -280,10 +272,6 @@
 						PreprocessorDefinitions=""
 					/>
 				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\..\..\Osi\src\OsiNames.cpp"
-				>
 			</File>
 			<File
 				RelativePath="..\..\..\..\Osi\src\OsiOpbdpSolve.cpp"
