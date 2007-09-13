@@ -4,6 +4,7 @@
 	Version="8.00"
 	Name="libCgl"
 	ProjectGUID="{DBEA3904-F0B8-408A-9E1A-6497FEBE8C42}"
+	RootNamespace="libCgl"
 	>
 	<Platforms>
 		<Platform
@@ -273,10 +274,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Cgl\src\CglData.cpp"
-				>
-			</File>
-			<File
 				RelativePath="..\..\..\..\Cgl\src\CglDuplicateRow\CglDuplicateRow.cpp"
 				>
 				<FileConfiguration
@@ -502,10 +499,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Cgl\src\CglParam.cpp"
-				>
-			</File>
-			<File
 				RelativePath="..\..\..\..\Cgl\src\CglPreProcess\CglPreProcess.cpp"
 				>
 				<FileConfiguration
@@ -581,14 +574,6 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitData.cpp"
-				>
-			</File>
-			<File
-				RelativePath="..\..\..\..\Cgl\src\CglRedSplit\CglRedSplitParam.cpp"
-				>
-			</File>
-			<File
 				RelativePath="..\..\..\..\Cgl\src\CglSimpleRounding\CglSimpleRounding.cpp"
 				>
 				<FileConfiguration
@@ -637,10 +622,6 @@
 						BasicRuntimeChecks="3"
 					/>
 				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="..\..\..\..\Cgl\src\CglTreeInfo.cpp"
-				>
 			</File>
 			<File
 				RelativePath="..\..\..\..\Cgl\src\CglTwomir\CglTwomir.cpp"
