@@ -20,7 +20,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\..\..\..\..\Osi\src\OsiCbc;&quot;..\..\..\..\..\FlopCpp\src&quot;;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src"
+				AdditionalIncludeDirectories="..\..\..\..\..\Osi\src\OsiCbc;..\..\..\..\..\FlopCpp\src;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src;..\..\..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="TRUE"
 				BasicRuntimeChecks="3"
@@ -68,9 +68,10 @@
 			WholeProgramOptimization="TRUE">
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\..\..\..\..\Osi\src\OsiCbc;&quot;..\..\..\..\..\FlopCpp\src&quot;;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src"
+				AdditionalIncludeDirectories="..\..\..\..\..\Osi\src\OsiCbc;..\..\..\..\..\FlopCpp\src;..\..\..\..\..\CoinUtils\src;..\..\..\..\..\Cbc\src;..\..\..\..\..\Osi\src;..\..\..\..\..\BuildTools\headers"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
-				RuntimeLibrary="0"
+				RuntimeLibrary="4"
+				RuntimeTypeInfo="TRUE"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
 				Detect64BitPortabilityProblems="TRUE"
