@@ -551,7 +551,15 @@
 					>
 				</File>
 				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGPerturbationHandler.cpp"
+					>
+				</File>
+				<File
 					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpCGSearchDirCalc.cpp"
+					>
+				</File>
+				<File
+					RelativePath="..\..\..\..\Ipopt\src\contrib\CGPenalty\IpPiecewisePenalty.cpp"
 					>
 				</File>
 			</Filter>
